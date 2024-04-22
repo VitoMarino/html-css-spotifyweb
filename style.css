@@ -21,7 +21,7 @@ ul {
 header {
     position: fixed;
     height: 100vh;
-    width: 20vw;
+    width: 15vw;
     padding-left: 1rem;
     background-color: #000000;
     color: white;
@@ -60,10 +60,10 @@ article.article2-header p {
 
 /* MAIN */
 main {
-    margin-left: 20vw;
+    margin-left: 15vw;
     background-color: #141922;
     color: white;
-    height: 100vh;
+    height: 150vh;
 }
 
 /* EFFETTUA UPGRADE nel main*/
@@ -87,6 +87,7 @@ main section.button button {
 }
 
 /*main principale*/
+/*section 1 del main*/
 
 main nav.nav-main ul {
     display: flex;
@@ -101,6 +102,7 @@ main nav.nav-main ul li a {
 
 section.section1-main {
     padding-top: 2rem;
+    padding-left: 1rem;
 }
 
 main section.section1-main h1 {
@@ -109,10 +111,15 @@ main section.section1-main h1 {
 
 section.section1-main article img {
     height: 150px;
+    margin-right: 1rem;
 }
 
 div.div-flex-recently-played {
     display: flex;
+}
+
+div.div-flex-recently-played p {
+    margin-top: .5rem;
 }
 
 p.p-titolo-canzone {
@@ -122,7 +129,39 @@ p.p-titolo-canzone {
 }
 
 p.p-sottotitlo {
-    font-size: .5rem;
+    font-size: .7rem;
     color: grey;
     text-align: center;
+}
+
+/*section 2 del main*/
+
+section.section2-main {
+    padding-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+section.section2-main article img {
+    height: 150px;
+}
+
+p.p-sottotitlo-section2 {
+    font-size: .7rem;
+    color: grey;
+    margin-bottom: 1rem;
+}
+
+div.div-flex-creato-per-John-Doe {
+    display: flex;
+}
+
+div.div-flex-creato-per-John-Doe img {
+    margin-right: 1rem;
+}
+
+/*FOOTER*/
+footer {
+    height: 100vw;
+    margin-left: 15vw;
 }
