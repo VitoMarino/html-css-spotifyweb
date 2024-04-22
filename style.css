@@ -20,10 +20,16 @@ ul {
 
 header {
     position: fixed;
+    z-index: 1;
     height: 100vh;
     width: 15vw;
     padding-left: 1rem;
     background-color: #000000;
+    color: grey;
+    font-size: .8rem;
+}
+
+article.article1-header ul li:nth-child(1) {
     color: white;
 }
 
@@ -44,12 +50,21 @@ ul.li-playlist li {
     margin-top: 1rem;
 }
 
+span.span-header {
+    border: solid grey;
+    background-color: grey;
+    color: black;
+    font-size: 1.5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
 article.article2-header img {
     height: 15px;
 }
 
 article.article2-header {
-    margin-top: 4rem;
+    margin-top: 9rem;
 }
 
 article.article2-header p {
@@ -60,10 +75,11 @@ article.article2-header p {
 
 /* MAIN */
 main {
+    overflow: auto;
     margin-left: 15vw;
     background-color: #141922;
     color: white;
-    height: 150vh;
+    height: 125vh;
 }
 
 /* EFFETTUA UPGRADE nel main*/
@@ -160,8 +176,47 @@ div.div-flex-creato-per-John-Doe img {
     margin-right: 1rem;
 }
 
+/*section finale del main*/
+div.div-flex-artisti-popolari {
+    display: flex;
+}
+
+div.div-flex-artisti-popolari img {
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
 /*FOOTER*/
 footer {
-    height: 100vw;
-    margin-left: 15vw;
+    position: sticky;
+    z-index: 2;
+    height: 5vh;
+}
+
+footer div {
+    background-color: #282828;
+}
+
+footer article img {
+    height: 45px;
+}
+
+p.p-navbar-footer {
+    color: white;
+    font-size: .8rem;
+}
+
+p.p-grey-navbar-footer {
+    color: grey;
+    font-size: .7rem;
+}
+
+div.flex-div-footer {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+div.flex-div-footer article:nth-child(2) {
+    margin-left: 1rem;
 }
