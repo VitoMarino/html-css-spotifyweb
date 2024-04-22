@@ -60,8 +60,10 @@ article.article2-header p {
 
 /* MAIN */
 main {
+    margin-left: 20vw;
     background-color: #141922;
     color: white;
+    height: 100vh;
 }
 
 /* EFFETTUA UPGRADE nel main*/
