@@ -75,7 +75,6 @@ article.article2-header p {
 
 /* MAIN */
 main {
-    overflow: auto;
     margin-left: 15vw;
     background-color: #141922;
     color: white;
@@ -190,15 +189,16 @@ div.div-flex-artisti-popolari img {
 footer {
     position: sticky;
     z-index: 2;
-    height: 5vh;
 }
 
-footer div {
+footer div.container-footer {
     background-color: #282828;
+    height: 10vh;
 }
 
-footer article img {
+footer div img {
     height: 45px;
+    margin-top: 1rem;
 }
 
 p.p-navbar-footer {
@@ -219,4 +219,13 @@ div.flex-div-footer {
 
 div.flex-div-footer article:nth-child(2) {
     margin-left: 1rem;
+}
+
+article.article-span {
+    margin-left: 2rem;
+}
+
+ul.ul-flex-navbar {
+    display: flex;
+    
 }
