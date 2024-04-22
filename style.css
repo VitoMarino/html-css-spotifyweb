@@ -8,6 +8,12 @@
     font-family: Montserrat;
 }
 
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+/* HEADER */
 ul {
     list-style: none;
 }
@@ -49,4 +55,71 @@ article.article2-header p {
     margin-bottom: 1rem;
     margin-top: 1rem;
     display: inline-block;
+}
+
+/* MAIN */
+main {
+    background-color: #141922;
+    color: white;
+}
+
+/* EFFETTUA UPGRADE nel main*/
+
+main section.button {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: #080b12;
+    display: flex;
+    justify-content: end;
+}
+
+main section.button button {
+    background-color: #000000;
+    color: white;
+    border-radius: 1rem;
+    padding: .5rem;
+    font-size: .7rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+/*main principale*/
+
+main nav.nav-main ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+main nav.nav-main ul li a {
+    margin: 1rem;
+    font-size: small;
+}
+
+section.section1-main {
+    padding-top: 2rem;
+}
+
+main section.section1-main h1 {
+    padding-bottom: 2rem;
+}
+
+section.section1-main article img {
+    height: 150px;
+}
+
+div.div-flex-recently-played {
+    display: flex;
+}
+
+p.p-titolo-canzone {
+    text-align: center;
+    font-size: .8rem;
+    font-weight: bolder;
+}
+
+p.p-sottotitlo {
+    font-size: .5rem;
+    color: grey;
+    text-align: center;
 }
