@@ -23,7 +23,7 @@ ul {
 }
 
 header {
-    height: calc(100% - 200px);
+    height: calc(100% - 120px);
     width: 200px;
     padding-left: 1rem;
     background-color: #000000;
@@ -79,7 +79,7 @@ article.article2-header p {
 main {
     background-color: #141922;
     color: white;
-    height: calc(100% - 200px);
+    height: calc(100% - 120px);
 }
 
 /* EFFETTUA UPGRADE nel main*/
