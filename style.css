@@ -196,38 +196,55 @@ footer {
     background-color: #282828;
 }
 
+div.container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 footer img.img-sinister {
     height: 30px;
+    margin-right: .5rem;
+    position: relative;
+    top: 1rem;
 }
 
 p.p-navbar-footer {
     color: white;
     font-size: .8rem;
+    display: inline-block;
 }
 
 p.p-grey-navbar-footer {
     color: grey;
     font-size: .7rem;
+    padding-left: 2.5rem;
+    display: inline-block;
 }
 
-div.container-footer {
-    display: flex;
-    align-items: center;
+footer article div.div-footer-two-img img {
+    position: relative;
+    left: 2rem;
+    margin-right: .4rem;
 }
 
-nav.navbar-flex-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+#id-repeat {
+    height: 15px;
+    position: relative;
+    bottom: .1rem;
 }
 
-ul.ul-flex-navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#id-play {
+    height: 30px;
+    position: relative;
+    top: .3rem;
 }
 
-footer article nav ul li img {
+footer div article:nth-child(2) img {
+    margin-right: 1rem;
+}
+
+footer div article img {
     height: 20px;
     filter: invert(1);
 }
@@ -301,5 +318,16 @@ footer article nav ul li img {
 
     main div.div-flex-recently-played article{
         margin-bottom: 1rem;
+    }
+}
+
+@media screen  and (max-width: 480px) {
+    
+    header {
+        width: 50px;
+    }
+
+    main {
+        width: calc(100% - 50px) ;
     }
 }
