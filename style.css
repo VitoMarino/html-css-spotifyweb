@@ -15,7 +15,7 @@ a {
 
 div.flex-div-general {
     display: flex;
-    height: calc(100% - 120px);
+    height: calc(100% - 70px);
 }
 
 /* HEADER */
@@ -129,7 +129,7 @@ main section.section1-main h1 {
 
 section.section1-main article img {
     height: 150px;
-    margin-right: 1rem;
+    margin-right: .7rem;
 }
 
 div.div-flex-recently-played {
@@ -175,7 +175,7 @@ div.div-flex-creato-per-John-Doe {
 }
 
 div.div-flex-creato-per-John-Doe img {
-    margin-right: 1rem;
+    margin-right: .7rem;
 }
 
 /*section finale del main*/
@@ -184,19 +184,19 @@ div.div-flex-artisti-popolari {
 }
 
 div.div-flex-artisti-popolari img {
-    margin-right: 1rem;
+    margin-right: .7rem;
     border-radius: 50%;
 }
 
 /*FOOTER*/
 footer {
-    height: 120px;
+    height: 70px;
+    width: 100vw;
     background-color: #282828;
 }
 
-footer div img {
-    height: 45px;
-    margin-top: 1rem;
+footer img.img-sinister {
+    height: 30px;
 }
 
 p.p-navbar-footer {
@@ -209,20 +209,24 @@ p.p-grey-navbar-footer {
     font-size: .7rem;
 }
 
-div.flex-div-footer {
+div.container-footer {
     display: flex;
     align-items: center;
-    margin-left: 1rem;
 }
 
-div.flex-div-footer article:nth-child(2) {
-    margin-left: 1rem;
-}
-
-article.article-span {
-    margin-left: 2rem;
+nav.navbar-flex-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 ul.ul-flex-navbar {
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer article nav ul li img {
+    height: 20px;
+    filter: invert(1);
 }
