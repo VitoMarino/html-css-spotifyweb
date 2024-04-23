@@ -80,6 +80,7 @@ main {
     background-color: #141922;
     color: white;
     height: calc(100% - 120px);
+    width: calc(100% - 200px);
 }
 
 /* EFFETTUA UPGRADE nel main*/
