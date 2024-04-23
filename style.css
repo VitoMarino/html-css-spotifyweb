@@ -23,7 +23,7 @@ ul {
 }
 
 header {
-    height: calc(100vh - 120px);
+    height: calc(100% - 200px);
     width: 200px;
     padding-left: 1rem;
     background-color: #000000;
