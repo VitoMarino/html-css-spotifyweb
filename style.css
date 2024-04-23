@@ -230,3 +230,15 @@ footer article nav ul li img {
     height: 20px;
     filter: invert(1);
 }
+
+@media screen and (max-width: 992px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen  and (max-width: 576px) {
+    
+}
