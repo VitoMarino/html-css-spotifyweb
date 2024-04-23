@@ -109,6 +109,7 @@ main section.button button {
 
 main nav.nav-main ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding-top: 1rem;
 }
@@ -268,12 +269,37 @@ footer article nav ul li img {
     header ul.li-playlist {
         font-size: .8rem;
     }
+
+    footer p.p-navbar-footer, p.article-flex-footer  {
+        font-size: .5rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    header article.article2-header {
+        margin-top: 30rem;
+    }
     
+    main div.div-flex-recently-played {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main article.responsive-768px {
+        margin-top: 1rem;
+    }
 }
 
 @media screen  and (max-width: 576px) {
-    
+    main nav.nav-main ul li {
+        margin-bottom: 1rem;
+    }
+
+    header article.article2-header {
+        margin-top: 42rem;
+    }
+
+    main div.div-flex-recently-played article{
+        margin-bottom: 1rem;
+    }
 }
