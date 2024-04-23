@@ -24,8 +24,8 @@ ul {
 }
 
 header {
-    width: 200px;
-    padding-left: 1rem;
+    width: 300px;
+    padding-left: 3rem;
     background-color: #000000;
     color: grey;
     font-size: .8rem;
@@ -129,7 +129,7 @@ main section.section1-main h1 {
 
 section.section1-main article img {
     height: 150px;
-    margin-right: .7rem;
+    margin-right: 1rem;
 }
 
 div.div-flex-recently-played {
@@ -175,7 +175,7 @@ div.div-flex-creato-per-John-Doe {
 }
 
 div.div-flex-creato-per-John-Doe img {
-    margin-right: .7rem;
+    margin-right: 1rem;
 }
 
 /*section finale del main*/
@@ -184,7 +184,7 @@ div.div-flex-artisti-popolari {
 }
 
 div.div-flex-artisti-popolari img {
-    margin-right: .7rem;
+    margin-right: 1rem;
     border-radius: 50%;
 }
 
@@ -232,7 +232,42 @@ footer article nav ul li img {
 }
 
 @media screen and (max-width: 992px) {
-    
+    header {
+        width: 200px;
+        padding-left: 1rem;
+    }
+
+    section.section1-main article img {
+        margin-right: 0.5rem;
+    }
+
+    section.section1-main article img {
+        height: 118px;
+    }
+
+    p.p-titolo-canzone {
+        font-size: .5rem;
+    }
+
+    p.p-sottotitlo {
+        font-size: .4rem;
+    }
+
+    main h1, h2 {
+        font-size: 1rem;
+    }
+
+    main nav.nav-main ul li a {
+        font-size: .6rem;
+    }
+
+    main section.section2-main p.p-sottotitlo-section2 {
+        font-size: .6rem;
+    }
+
+    header ul.li-playlist {
+        font-size: .8rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
