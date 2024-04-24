@@ -39,19 +39,20 @@ main nav.nav-main ul li a:hover {
 
 img.primary:hover {
     filter: blur(1px);
+    transition: filter;
 }
 
-img.primary {
-    transition: filter;
+img.hover-img {
+    display: ;
 }
 
 img.primary:hover img.hover-img {
     display: inline-block;
 }
 
-img.img.hover-img {
+img.hover-img {
+    display: none;
     filter: invert(1);
-    height: 20px;
 }
 
 /* HEADER */
@@ -120,10 +121,6 @@ main {
     background-color: #141922;
     color: white;
     width: calc(100% - 200px);
-}
-
-main img.hover-img {
-    display: none;
 }
 
 /* EFFETTUA UPGRADE nel main*/
