@@ -37,22 +37,24 @@ main nav.nav-main ul li a:hover {
     color: white;
 }
 
-img.primary:hover {
+img.img-filter:hover {
     filter: blur(1px);
     transition: filter;
 }
 
-img.hover-img {
-    display: ;
-}
-
-img.primary:hover img.hover-img {
+article.primary:hover img.hover-img {
     display: inline-block;
 }
 
+img.img-primary {
+    position: relative;
+}
+
 img.hover-img {
+    position: absolute;
     display: none;
     filter: invert(1);
+    height: 40px;
 }
 
 /* HEADER */
@@ -169,7 +171,7 @@ main section.section1-main h1 {
     padding-bottom: 2rem;
 }
 
-section.section1-main article img {
+section.section1-main article img.img-filter {
     height: 150px;
     margin-right: 1rem;
 }
@@ -202,7 +204,7 @@ section.section2-main {
     margin-bottom: 2rem;
 }
 
-section.section2-main article img {
+section.section2-main article img.img-filter {
     height: 150px;
 }
 
