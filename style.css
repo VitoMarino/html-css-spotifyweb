@@ -46,12 +46,15 @@ article.primary:hover img.hover-img {
     display: inline-block;
 }
 
-img.img-primary {
+main article.primary {
     position: relative;
 }
 
 img.hover-img {
+    z-index: 5;
     position: absolute;
+    left: 35%;
+    top: 25%;
     display: none;
     filter: invert(1);
     height: 40px;
