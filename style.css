@@ -421,6 +421,18 @@ footer div article img {
         flex-direction: column;
     }
 
+    header div.div-responsive-480px div:nth-child(1) {
+        margin-top: 1rem;
+    }
+
+    header div.div-responsive-480px div:nth-child(2) {
+        margin-top: 62rem;
+    }
+
+    header div.div-responsive-480px img {
+        height: 25px;
+    }
+
     header article.article2-header p, hr {
         display: none;
     }
@@ -436,14 +448,32 @@ footer div article img {
     main {
         width: calc(100% - 50px);
         height: 100vh;
+        overflow: auto;
     }
 
-    main section div article img {
-        height: 50px;
+    section.section1-main article img {
+        height: 180px;
+        margin-right: 1rem;
     }
 
     footer {
         padding-top: 4rem;
         height: 200px;
     }
+
+    footer div.play-bar-volume {
+        position: absolute;
+        right: .5rem;
+        top: 82rem;
+        width: 70px;
+    }
+
+    footer div img.responsive-img-576px
+    {
+        display: flex;
+        margin-left: .5rem;
+        margin-top: .3rem;
+    }
+    
+
 }
