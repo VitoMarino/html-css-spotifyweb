@@ -18,6 +18,42 @@ div.flex-div-general {
     height: calc(100% - 70px);
 }
 
+/*HOVER*/
+
+header article ul li:hover {
+    color: white;
+}
+
+header article p:hover {
+    color: white;
+}
+
+main section.button button:hover {
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+main nav.nav-main ul li a:hover {
+    color: white;
+}
+
+img.primary:hover {
+    filter: blur(1px);
+}
+
+img.primary {
+    transition: filter;
+}
+
+img.primary:hover img.hover-img {
+    display: inline-block;
+}
+
+img.img.hover-img {
+    filter: invert(1);
+    height: 20px;
+}
+
 /* HEADER */
 div.div-responsive-480px {
     display: none;
@@ -84,6 +120,10 @@ main {
     background-color: #141922;
     color: white;
     width: calc(100% - 200px);
+}
+
+main img.hover-img {
+    display: none;
 }
 
 /* EFFETTUA UPGRADE nel main*/
