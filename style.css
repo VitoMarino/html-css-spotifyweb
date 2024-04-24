@@ -228,6 +228,51 @@ footer article div.div-footer-two-img img {
     margin-right: .4rem;
 }
 
+footer div.play-bar {
+    margin-top: .5rem;
+    width: 95%;
+    height: 4px;
+    background-color: grey;
+    border-radius: 1rem;
+    color: white;
+}
+
+footer div.play-bar p {
+    font-size: .5rem;
+}
+
+footer div p.p-play-bar-start {
+    position: relative;
+    right: 2rem;
+    bottom: .20rem;
+}
+
+footer div p.p-play-bar-finish {
+    position: relative;
+    left: 13rem;
+    bottom: .9rem;
+}
+
+footer div.container-footer article:nth-child(3) img {
+    height: 13px;
+    margin-right: 1rem;
+}
+
+footer div.container-footer article:nth-child(3) {
+    margin-right: 15rem;
+}
+
+footer div.play-bar-volume {
+    position: absolute;
+    right: 5rem;
+    top: 62.7rem;
+    margin-top: .5rem;
+    width: 10%;
+    height: 4px;
+    background-color: grey;
+    border-radius: 1rem;
+}
+
 #id-repeat {
     height: 15px;
     position: relative;
